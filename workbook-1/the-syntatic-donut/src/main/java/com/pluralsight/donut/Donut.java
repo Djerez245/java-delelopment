@@ -7,7 +7,9 @@ package com.pluralsight.donut;
  *  array declaration, array access
  *  < > pointy brackets
  *  template parameter lists
- *  ; semi-colin
+ * " " double quotes
+ * ' ' single quotes
+ *   ; semi-colin
  *  end of statement
  */
 
@@ -31,7 +33,7 @@ public class Donut {
         
         System.out.println( "your donuts cost:" );
         
-        double toalPrice = getTotalprice(numberOfDonuts);
+        double totalprice = getTotalprice(numberOfDonuts);
         
         System.out.println( getTotalprice(numberOfDonuts) + " dollars" );
         System.out.printf("In dollars, that would be $%4.2f\n", getTotalprice(12));

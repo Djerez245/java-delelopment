@@ -48,5 +48,7 @@ public class FutureValue {
         System.out.println("Amount earned in interest:" + earnedinterest);
 
 
+
     }
 }
+
