@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FutureValue {
 
-    public static void main(String[] args) {
+    public void FutureValue() {
 
         double FutureValue = 0.0;
         double cd = 0.0;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Annuity {
 
-    public static void main(String[] args) {
+    public void Annuity() {
         double presentValue = 0;
         double payment = 0;
         double intrestRate = 0;

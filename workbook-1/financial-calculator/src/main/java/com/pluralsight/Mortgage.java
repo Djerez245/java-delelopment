@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class Mortgage {
-    public static void main(String[] args) {
+    public void Mortgage() {
         //declare variables to hold the input
         double totalInterest = 0.0;
         double principle = 0.0;
