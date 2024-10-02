@@ -32,7 +32,7 @@ public class main {
             }
             else if (userChoice == 4) {
                 loop = false;
-                System.out.println( "SCREW YOU THEN!!");
+                System.out.println(red + "SCREW YOU THEN!!" + reset);
             }
             else{System.out.println("Would you like to exit this program?\nEnter 1 for yes\nEnter 2 for no");
             userChoice = logicscanner.nextInt();  // made it loop if user puts incorrect input
