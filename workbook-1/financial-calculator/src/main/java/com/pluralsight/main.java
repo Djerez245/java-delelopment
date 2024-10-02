@@ -15,8 +15,8 @@ public class main {
 
         boolean loop = true;  // conditional loop variable
         while (loop) {
-            System.out.println("***SELECT YOUR CALCULATOR***");
-            System.out.println("For future value calculator select 1\nFor mortgage calculator select 2\nFor annuity calculator select 3\n To exit select 4 ");
+            System.out.println("\n***SELECT YOUR CALCULATOR***\n");
+            System.out.println("For future value calculator select 1\n\nFor mortgage calculator select 2\n\nFor annuity calculator select 3\n\n To exit select 4 ");
             int userChoice = logicscanner.nextInt();
             if (userChoice == 1) {
                 fv.FutureValue();
